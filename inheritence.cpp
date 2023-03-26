@@ -1,31 +1,32 @@
 #include<iostream>
+#include<string>
 using namespace std;
 
 //base class
 
 class vehicle{
     public:
-    string brand = "ford";
+    string brand ="ford";
+    
     void honk()
     {
-        cout<<"toot , toot"<<endl;
+        cout<<"toot toot"<<endl;
     }
-
 };
 
-//inherited class
+//inherit class
 
-class car : public vehicle
+class car:public vehicle
 {
     public:
-    string model = "mustang";
+    string model="mustang";
 
 };
 int main()
 {
     car mycar;
     mycar.honk();
-    cout<<mycar.brand + " " + mycar.model;
+    cout<<mycar.brand+""+mycar.model;
 
     return 0;
 }
