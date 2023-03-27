@@ -5,7 +5,7 @@ class animal{
     public:
     void animalsound()
     {
-    cout<<"the animal has a peerticular sound";
+    cout<<"the animal has a perticular sound";
     }
 };
 class pig:public animal{
@@ -20,7 +20,7 @@ class dog:public animal{
     public:
     void animalsound()
     {
-        cout<<"the dog says bow bow"<<endl;
+        cout<<"the dog barks bow bow"<<endl;
 
     }
 };
