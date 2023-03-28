@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     //create and open file
-    ofstreasm Myfile("filename.txt");
+    ofstream Myfile("filename.txt");
 
     //write the file
 
